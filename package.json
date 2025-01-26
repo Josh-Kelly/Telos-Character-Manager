@@ -1,0 +1,18 @@
+{
+  "name": "telos-character-manager",
+  "version": "1.0.0",
+  "description": "A manager for looking up rules and for creating and managing Telos characters.",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "sqlite3": "^5.1.7"
+  }
+}

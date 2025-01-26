@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TTTelos Character Manager</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <h1>Create Your Character</h1>
+    <form id="characterForm">
+      <input type="text" id="name" placeholder="Character Name" required />
+      <input type="text" id="race" placeholder="Race" required />
+      <input type="text" id="class" placeholder="Class" required />
+      <textarea id="stats" placeholder="Character Stats" required></textarea>
+      <button type="submit">Save Character</button>
+    </form>
+
+    <div id="characterList">
+      <h2>Saved Characters</h2>
+      <ul id="characters"></ul>
+      <button id="delete-all">Delete All Characters</button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
